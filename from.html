@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Employee Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Employee Registration Form</h1>
+</header>
+
+<main>
+  <form>
+
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" aria-label="Full Name" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" aria-label="Email Address" required><br><br>
+
+      <label for="phone">Phone Number</label><br>
+      <input type="tel" id="phone" aria-label="Phone Number"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Job Details</legend>
+
+      <label for="role">Job Role</label><br>
+      <select id="role" aria-label="Job Role">
+        <option>Frontend Developer</option>
+        <option>Backend Developer</option>
+        <option>UI/UX Designer</option>
+        <option>Software Tester</option>
+      </select><br><br>
+
+      <label for="message">About You</label><br>
+      <textarea id="message" rows="4" aria-label="About You"></textarea><br><br>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</main>
+
+<footer>
+  <p>© 2026 Enterprise Dashboard | Accessible HTML5 Form</p>
+</footer>
+
+</body>
+</html>
