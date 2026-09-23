@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Enterprise Dashboard</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Dashboard Summary</h2>
+
+    <article>
+      <h3>Employees</h3>
+      <p>250 Employees</p>
+    </article>
+
+    <article>
+      <h3>Projects</h3>
+      <p>18 Active Projects</p>
+    </article>
+
+    <article>
+      <h3>Tasks Completed</h3>
+      <p>95%</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Recent Activity</h2>
+    <table>
+      <tr>
+        <th>Employee</th>
+        <th>Task</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Alagu Selvam</td>
+        <td>Accessibility Audit</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>Priya</td>
+        <td>Dashboard Design</td>
+        <td>In Progress</td>
+      </tr>
+      <tr>
+        <td>Ravi</td>
+        <td>HTML Validation</td>
+        <td>Completed</td>
+      </tr>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Enterprise Dashboard</p>
+</footer>
+
+</body>
+</html>
